@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/runtime-archives/',  // ADD THIS LINE
+  base: '/Runtime-Archives/',  
   server: {
     port: 3000,
     open: true

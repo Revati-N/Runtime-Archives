@@ -2,7 +2,7 @@
   "name": "runtime-archives",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://revati-n.github.io/runtime-archives",  
+  "homepage": "https://revati-n.github.io/Runtime-Archives",  
   "type": "module",
   "scripts": {
     "dev": "vite",
