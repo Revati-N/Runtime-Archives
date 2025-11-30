@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { loadNote } from '../utils/noteLoader'
 import MarkdownRenderer from '../components/MarkdownRenderer'
-import Comments from '../components/Comments'
 
 export default function NoteView() {
   const { folder, slug } = useParams()
@@ -78,9 +77,6 @@ export default function NoteView() {
       <article className="archive-card mb-8">
         <MarkdownRenderer content={note.content} />
       </article>
-
-      {/* Comments */}
-      <Comments />
     </div>
   )
 }

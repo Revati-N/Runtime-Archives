@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json  ← REMOVE THIS LINE or comment it out
 yarn.lock
 pnpm-lock.yaml
 
@@ -48,9 +48,3 @@ coverage/
 *.tmp
 .cache/
 .temp/
-
-# Optional: gh-pages deployment
-.cache
-
-# Don't ignore notes - you want these committed!
-# public/notes/**/*.md should be tracked
