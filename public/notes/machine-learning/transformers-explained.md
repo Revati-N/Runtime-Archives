@@ -3,7 +3,7 @@ title: Understanding Transformers Architecture
 excerpt: A deep dive into the revolutionary transformer architecture that powers modern NLP models
 tags: [deep-learning, nlp, transformers, attention]
 category: Machine Learning
-date: 2025-11-30
+date: 2025-09-30
 ---
 
 # Understanding Transformers Architecture
