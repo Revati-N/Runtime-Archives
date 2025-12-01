@@ -41,9 +41,7 @@ export async function loadAllNotes() {
   
   const notesList = [
     { folder: 'machine-learning', slug: 'transformers-explained' },
-    { folder: 'machine-learning', slug: 'lstm-guide' },
-    { folder: 'web-development', slug: 'react-hooks' },
-    { folder: 'web-development', slug: 'tailwind-tips' },
+    { folder: 'curiosity', slug: 'yawns'},
     { folder: 'personal', slug: 'my-journey' },
   ]
   
