@@ -43,6 +43,7 @@ export async function loadAllNotes() {
     { folder: 'machine-learning', slug: 'transformers-explained' },
     { folder: 'curiosity', slug: 'yawns'},
     { folder: 'personal', slug: 'my-journey' },
+    { folder: 'tech', slug: 'roadblocks'},
   ]
   
   for (const { folder, slug } of notesList) {
